@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Заметки</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Test/img/book-open.svg" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="task-input">
+        <i class="uil uil-align-left"></i>
+        <input type="text" placeholder="Добавьте заметку" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">Список дел</span>
+          <span id="pending">В Ожидании</span>
+          <span id="completed">Завершено</span>
+        </div>
+        <button class="clear-btn">Очистить</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
